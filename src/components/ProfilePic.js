@@ -2,6 +2,8 @@ import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
+import styles from './ProfilePic.module.css';
+
 /*
  * This component is built using `gatsby-image` to automatically serve optimized
  * images with lazy loading and reduced file sizes. The image is loaded using a
@@ -13,7 +15,7 @@ import Img from 'gatsby-image';
  * - `StaticQuery`: https://gatsby.dev/staticquery
  */
 
-const Image = () => (
+const ProfilePic = () => (
   <StaticQuery
     query={graphql`
       query {
@@ -27,12 +29,21 @@ const Image = () => (
       }
     `}
     render={data => (
-      <Img
-        fluid={data.placeholderImage.childImageSharp.fluid}
-        alt="Profile picture"
-        imgStyle={{ borderRadius: '100%' }}
-      />
+      <div>
+        <Img
+          fluid={data.placeholderImage.childImageSharp.fluid}
+          alt="Profile picture"
+          className={styles.img}
+        />
+        <div className={styles.subtitle}>
+          picture blurred - equal chances for everyone
+          <div className={styles.subtitleWeb}>press to reveal</div>
+          <div className={styles.subtitlePrint}>
+            visit web version to view picture
+          </div>
+        </div>
+      </div>
     )}
   />
 );
-export default Image;
+export default ProfilePic;

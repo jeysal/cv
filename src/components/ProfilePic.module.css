@@ -1,0 +1,24 @@
+.img {
+  border-radius: 100%;
+}
+
+.img:not(:active) {
+  filter: blur(4mm);
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 0.75rem;
+}
+
+@media print {
+  .subtitleWeb {
+    display: none;
+  }
+}
+
+@media not print {
+  .subtitlePrint {
+    display: none;
+  }
+}
