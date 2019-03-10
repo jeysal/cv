@@ -18,14 +18,20 @@ const Layout = ({ children }) => (
       query SiteTitleQuery {
         site {
           siteMetadata {
+            author
+            github
             title
           }
         }
       }
     `}
-    render={data => (
+    render={({
+      site: {
+        siteMetadata: { author, github, title },
+      },
+    }) => (
       <>
-        <Header siteTitle={data.site.siteMetadata.title} />
+        <Header siteTitle={title} />
         <div
           style={{
             margin: `0 auto`,
@@ -36,9 +42,9 @@ const Layout = ({ children }) => (
         >
           <main>{children}</main>
           <footer>
-            © {new Date().getFullYear()}, Built with
+            Built by
             {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
+            <a href={`https://github.com/${github}`}>{author}</a>
           </footer>
         </div>
       </>
