@@ -3,6 +3,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 import ProfilePic from '../components/ProfilePic';
 import Info from '../components/Info';
+import History from '../components/History';
 
 const IndexPage = () => (
   <Layout>
@@ -14,6 +15,8 @@ const IndexPage = () => (
         <ProfilePic />
       </aside>
     </div>
+    <hr />
+    <History />
   </Layout>
 );
 

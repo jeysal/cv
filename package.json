@@ -5,6 +5,8 @@
   "version": "0.1.0",
   "author": "Tim Seckinger <seckinger.tim@gmail.com>",
   "dependencies": {
+    "d3-scale-chromatic": "^1.3.3",
+    "date-fns": "^1.30.1",
     "gatsby": "^2.1.27",
     "gatsby-image": "^2.0.31",
     "gatsby-plugin-manifest": "^2.0.22",
