@@ -9,8 +9,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { StaticQuery, graphql } from 'gatsby';
 
-import Header from './header';
-import './layout.css';
+import Header from './Header';
+import Footer from './Footer';
+import './Layout.css';
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -18,8 +19,6 @@ const Layout = ({ children }) => (
       query SiteTitleQuery {
         site {
           siteMetadata {
-            author
-            github
             title
           }
         }
@@ -27,7 +26,7 @@ const Layout = ({ children }) => (
     `}
     render={({
       site: {
-        siteMetadata: { author, github, title },
+        siteMetadata: { title },
       },
     }) => (
       <>
@@ -41,11 +40,7 @@ const Layout = ({ children }) => (
           }}
         >
           <main>{children}</main>
-          <footer>
-            Built by
-            {` `}
-            <a href={`https://github.com/${github}`}>{author}</a>
-          </footer>
+          <Footer />
         </div>
       </>
     )}
