@@ -20,7 +20,7 @@ const Footer = () => (
         siteMetadata: { author, github },
       },
     }) => (
-      <footer>
+      <footer className={styles.footer}>
         <div className={styles.footerWeb}>
           Built by
           {` `}

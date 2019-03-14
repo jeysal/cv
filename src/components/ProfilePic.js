@@ -36,7 +36,9 @@ const ProfilePic = () => (
           className={styles.img}
         />
         <div className={styles.subtitle}>
-          picture blurred - equal chances for everyone
+          <div className={styles.subtitleLarge}>
+            picture blurred - equal chances for everyone
+          </div>
           <div className={styles.subtitleWeb}>press to reveal</div>
           <div className={styles.subtitlePrint}>
             visit web version to view picture

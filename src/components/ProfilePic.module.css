@@ -22,3 +22,9 @@
     display: none;
   }
 }
+
+@media not screen and (min-width: 768px) {
+  .subtitleLarge {
+    display: none;
+  }
+}
