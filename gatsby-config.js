@@ -3,6 +3,10 @@ const author = 'Tim Seckinger';
 module.exports = {
   siteMetadata: {
     author,
+    dateOfBirth: '1997-09-06',
+    nationality: 'German',
+
+    email: 'seckinger.tim@gmail.com',
     github: `jeysal`,
     twitter: `_jeysal_`,
 

@@ -6,11 +6,14 @@ import Info from '../components/Info';
 
 const IndexPage = () => (
   <Layout>
-    <aside style={{ float: 'right', maxWidth: `7cm`, marginBottom: `1.45rem` }}>
-      <ProfilePic />
-    </aside>
-    <Info />
-    <div style={{ clear: 'both' }} />
+    <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+      <div style={{ flexGrow: 1 }}>
+        <Info />
+      </div>
+      <aside style={{ maxWidth: `7cm`, margin: `2rem`, marginTop: '0' }}>
+        <ProfilePic />
+      </aside>
+    </div>
   </Layout>
 );
 

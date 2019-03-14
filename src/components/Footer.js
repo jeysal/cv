@@ -27,10 +27,7 @@ const Footer = () => (
           <a href={`https://github.com/${github}`}>{author}</a>
         </div>
         <div className={styles.footerPrint}>
-          Web version at{' '}
-          <span
-            style={{ fontFamily: 'monospace' }}
-          >{`https://${github}.github.io/cv/`}</span>
+          Web version at <code>{`https://${github}.github.io/cv/`}</code>
         </div>
       </footer>
     )}
