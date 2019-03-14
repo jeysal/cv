@@ -2,12 +2,15 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import ProfilePic from '../components/ProfilePic';
+import Info from '../components/Info';
 
 const IndexPage = () => (
   <Layout>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+    <aside style={{ float: 'right', maxWidth: `7cm`, marginBottom: `1.45rem` }}>
       <ProfilePic />
-    </div>
+    </aside>
+    <Info />
+    <div style={{ clear: 'both' }} />
   </Layout>
 );
 

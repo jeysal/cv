@@ -11,8 +11,8 @@ const Header = ({ siteTitle }) => (
     <div
       style={{
         margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
+        maxWidth: '210mm',
+        padding: `1.5rem 1.5rem`,
       }}
     >
       <h1 style={{ margin: 0, color: '#111' }}>{siteTitle}</h1>
