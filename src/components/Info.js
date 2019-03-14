@@ -14,18 +14,18 @@ const Info = () => (
             author
             dateOfBirth
             email
-            nationality
+            github
           }
         }
       }
     `}
     render={({
       site: {
-        siteMetadata: { author, dateOfBirth, email, nationality },
+        siteMetadata: { author, dateOfBirth, email, github },
       },
     }) => (
       <section>
-        <h2>Personal information</h2>
+        <h2>Personal & contact information</h2>
         <div className={styles.infoGrid}>
           <div>Name</div>
           <div>{author}</div>
@@ -34,9 +34,23 @@ const Info = () => (
             {dateOfBirth} (age {age(dateOfBirth)})
           </div>
           <div>Nationality</div>
-          <div>{nationality}</div>
+          <div>German (EU citizenship)</div>
+          <div>Languages</div>
+          <div>
+            English (fluent)
+            <br />
+            German (native)
+          </div>
+          <div>&nbsp;</div>
+          <div>&nbsp;</div>
           <div>Email</div>
-          <div>{email}</div>
+          <div>
+            <a href={`mailto:${email}`}>{email}</a>
+          </div>
+          <div>GitHub</div>
+          <div>
+            <a href={`https://github.com/${github}`}>{github}</a>
+          </div>
         </div>
       </section>
     )}
