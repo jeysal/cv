@@ -1,7 +1,3 @@
-.footer {
-  margin-top: 1.5rem;
-}
-
 @media print {
   .footerWeb {
     display: none;
