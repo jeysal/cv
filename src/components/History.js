@@ -1,6 +1,9 @@
 import * as React from 'react';
+import { schemeDark2 } from 'd3-scale-chromatic';
 
 import HistoryDiagram from './HistoryDiagram';
+import infoStyles from './Info.module.css';
+import entries from '../data/history';
 
 const History = () => (
   <section>
@@ -9,13 +12,28 @@ const History = () => (
       style={{
         display: 'grid',
         gridTemplateColumns: '1cm auto',
-        columnGap: '1cm',
+        columnGap: '5mm',
       }}
     >
       <aside>
         <HistoryDiagram />
       </aside>
-      TODO
+      <div className={infoStyles.infoGrid}>
+        {entries.map(({ from, to, description }, i) => (
+          <>
+            <div
+              style={{
+                fontFamily: 'monospace',
+                color: schemeDark2[i % schemeDark2.length],
+                textAlign: from ? 'left' : 'right',
+              }}
+            >
+              {from} - {to}
+            </div>
+            <div>{description}</div>
+          </>
+        ))}
+      </div>
     </div>
   </section>
 );
