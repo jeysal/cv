@@ -5,6 +5,7 @@ import SEO from '../components/SEO';
 import ProfilePic from '../components/ProfilePic';
 import Info from '../components/Info';
 import History from '../components/History';
+import Skills from '../components/Skills';
 
 const IndexPage = () => (
   <Layout>
@@ -21,6 +22,8 @@ const IndexPage = () => (
     </div>
     <hr />
     <History />
+    <hr />
+    <Skills />
   </Layout>
 );
 
