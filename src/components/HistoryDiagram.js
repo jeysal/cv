@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { schemeSet1 } from 'd3-scale-chromatic';
+import { schemeDark2 } from 'd3-scale-chromatic';
 import { addMonths, differenceInCalendarMonths } from 'date-fns';
 
 import entries, { start } from '../data/history';
@@ -11,7 +11,7 @@ const totalMonths = differenceInCalendarMonths(end, start);
 const HistoryDiagram = () => (
   <div className={styles.diagram}>
     {entries.map(({ from, to }, i) => {
-      const backgroundColor = schemeSet1[i % schemeSet1.length];
+      const backgroundColor = schemeDark2[i % schemeDark2.length];
 
       const monthsBeforeFrom = differenceInCalendarMonths(from || start, start);
       const monthsAfterTo = differenceInCalendarMonths(end, to || end);

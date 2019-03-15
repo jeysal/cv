@@ -1,6 +1,10 @@
 export const start = new Date('2014-01');
 export default [
   {
+    from: '2019-01',
+    description: 'Jest core contributor',
+  },
+  {
     from: '2018-10',
     description: 'Software Engineer at adesso AG',
   },

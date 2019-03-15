@@ -4,7 +4,7 @@ import HistoryDiagram from './HistoryDiagram';
 
 const History = () => (
   <section>
-    <h2>Education & professional experience</h2>
+    <h2>Education & experience</h2>
     <div
       style={{
         display: 'grid',
