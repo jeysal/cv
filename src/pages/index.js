@@ -13,7 +13,9 @@ const IndexPage = () => (
       <div style={{ flexGrow: 1 }}>
         <Info />
       </div>
-      <aside style={{ maxWidth: `7cm`, margin: `2rem`, marginTop: '0' }}>
+      <aside
+        style={{ maxWidth: `7cm`, marginLeft: `2rem`, marginRight: '2rem' }}
+      >
         <ProfilePic />
       </aside>
     </div>
