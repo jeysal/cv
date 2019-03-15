@@ -626,3 +626,6 @@ pre tt:after {
     color: inherit;
   }
 }
+body {
+  -webkit-print-color-adjust: exact;
+}
