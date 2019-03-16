@@ -6,7 +6,9 @@ export default [
     from: '2019-01',
     description: (
       <>
-        <a href="https://github.com/facebook/jest">Jest</a> core contributor
+        <a href="https://github.com/facebook/jest">Jest</a> core contributor in
+        spare time, development of a popular open-source JavaScript testing
+        platform
       </>
     ),
   },
@@ -14,7 +16,9 @@ export default [
     from: '2018-10',
     description: (
       <>
-        Software Engineer at <a href="https://www.adesso.de/">adesso AG</a>
+        Software Engineer at <a href="https://www.adesso.de/">adesso AG</a>,
+        full-stack JavaScript web development in a customer project using Scrum
+        methodology
       </>
     ),
   },
@@ -24,7 +28,8 @@ export default [
     description: (
       <>
         Part-time working student at{' '}
-        <a href="https://www.adesso.de/">adesso AG</a>
+        <a href="https://www.adesso.de/">adesso AG</a>, agile product
+        development of an IoT and data visualization platform
       </>
     ),
   },
@@ -62,8 +67,9 @@ export default [
     to: '2017-06',
     description: (
       <>
-        Vocational education at <a href="https://www.adesso.de/">adesso AG</a>,
-        with parallel studies
+        Vocational education at <a href="https://www.adesso.de/">adesso AG</a>{' '}
+        with parallel studies, development of Java backends and JavaScript
+        frontends for internal web applications
       </>
     ),
   },
