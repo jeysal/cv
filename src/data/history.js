@@ -4,6 +4,7 @@ export const start = new Date('2014-01');
 export default [
   {
     from: '2019-01',
+    location: 'Remote',
     description: (
       <>
         <a href="https://github.com/facebook/jest">Jest</a> core contributor in
@@ -14,6 +15,7 @@ export default [
   },
   {
     from: '2018-10',
+    location: 'DTM/CGN/BER, DE',
     description: (
       <>
         Software Engineer at <a href="https://www.adesso.de/">adesso AG</a>,
@@ -25,6 +27,7 @@ export default [
   {
     from: '2017-07',
     to: '2018-09',
+    location: 'Dortmund, DE',
     description: (
       <>
         Part-time working student at{' '}
@@ -36,6 +39,7 @@ export default [
   {
     from: '2014-09',
     to: '2018-12',
+    location: 'Dortmund, DE',
     description: (
       <>
         <div>
@@ -65,6 +69,7 @@ export default [
   {
     from: '2014-08',
     to: '2017-06',
+    location: 'Dortmund, DE',
     description: (
       <>
         Vocational education at <a href="https://www.adesso.de/">adesso AG</a>{' '}
@@ -75,6 +80,7 @@ export default [
   },
   {
     to: '2014-06',
+    location: 'Wetter, DE',
     description: (
       <>
         <div>Secondary education, concluded with Abitur</div>

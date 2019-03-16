@@ -19,16 +19,26 @@ const History = () => (
         <HistoryDiagram />
       </aside>
       <div className={infoStyles.infoGrid}>
-        {entries.map(({ from, to, description }, i) => (
+        {entries.map(({ from, to, description, location }, i) => (
           <>
             <div
               style={{
-                fontFamily: 'monospace',
                 color: schemeDark2[i % schemeDark2.length],
-                textAlign: from ? 'left' : 'right',
               }}
             >
-              {from} - {to}
+              <div
+                style={{
+                  fontFamily: 'monospace',
+                  textAlign: from ? 'left' : 'right',
+                }}
+              >
+                {from} - {to}
+              </div>
+              {location && (
+                <small>
+                  <div style={{ textAlign: 'center' }}>{location}</div>
+                </small>
+              )}
             </div>
             <div>{description}</div>
           </>
