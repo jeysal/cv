@@ -7,7 +7,10 @@ const Skills = () => (
     <h2>Skills</h2>
     <div className={infoStyles.infoGrid}>
       <div>Paradigms</div>
-      <div>Functional, Functional & Reactive, Imperative, Object-oriented</div>
+      <div>
+        Functional, Functional & Reactive, Declarative, Imperative,
+        Object-oriented
+      </div>
       <div>Main interests</div>
       <div>
         Testing, Compilers & static analysis, Tooling & DX, Build systems, Web
@@ -29,10 +32,10 @@ const Skills = () => (
       </div>
       <div>Libraries</div>
       <div>
-        <em>Selection:</em> React, Angular, Cycle.js, RxJS, Spring Framework
+        <em>Selection:</em> React, Angular, Cycle.js, RxJS, Express, Spring
       </div>
       <div>Databases</div>
-      <div>Neo4j, MongoDB, various SQL-based</div>
+      <div>Neo4j, MongoDB, various SQL-based, ORMs</div>
     </div>
   </section>
 );
