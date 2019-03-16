@@ -33,12 +33,27 @@ export default [
     to: '2018-12',
     description: (
       <>
-        Student at{' '}
-        <a href="https://www.fh-dortmund.de/">Fachhochschule Dortmund</a>{' '}
-        University of Applies Sciences and Arts, concluded with Bachelor of
-        Science in Software Engineering (original title "Softwaretechnik")
-        <br />
-        <small>Final grade 1.2 (scale 1.0 best to 4.0 worst)</small>
+        <div>
+          Student at{' '}
+          <a href="https://www.fh-dortmund.de/">Fachhochschule Dortmund</a>{' '}
+          University of Applies Sciences and Arts
+        </div>
+        <small>
+          <div>
+            Awarded Bachelor of Science in Software Engineering (orig.
+            "Softwaretechnik")
+          </div>
+          <div>Final grade 1.2 (scale 1.0 best to 4.0 worst)</div>
+          <div>
+            <small>
+              <small>
+                Thesis title: Compile-time abstraction of JavaScript mocking
+                libraries powering a domain-specific language for interaction
+                testing
+              </small>
+            </small>
+          </div>
+        </small>
       </>
     ),
   },
@@ -56,10 +71,11 @@ export default [
     to: '2014-06',
     description: (
       <>
-        Secondary education, concluded with Abitur
-        <br />
+        <div>Secondary education, concluded with Abitur</div>
         <small>
-          Average grade 1.6 (equiv. A in US / UK, scale 1.0 best to 4.0 worst)
+          <div>
+            Average grade 1.6 (equiv. A in US / UK, scale 1.0 best to 4.0 worst)
+          </div>
         </small>
       </>
     ),

@@ -70,6 +70,7 @@ mark {
 }
 small {
   font-size: 80%;
+  line-height: 1em;
 }
 sub,
 sup {
@@ -201,6 +202,7 @@ html {
 body {
   color: hsla(0, 0%, 0%, 0.8);
   font-family: Roboto, sans-serif;
+  font-size: 0.85rem;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
