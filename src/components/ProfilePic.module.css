@@ -8,7 +8,8 @@
 
 .subtitle {
   text-align: center;
-  font-size: 0.7rem;
+  font-size: 0.5rem;
+  line-height: 1rem;
 }
 
 @media print {

@@ -36,11 +36,7 @@ const Info = () => (
           <div>Nationality</div>
           <div>German (EU citizenship)</div>
           <div>Languages</div>
-          <div>
-            English (fluent)
-            <br />
-            German (native)
-          </div>
+          <div>English (fluent), German (native)</div>
           <div>&nbsp;</div>
           <div>&nbsp;</div>
           <div>Email</div>

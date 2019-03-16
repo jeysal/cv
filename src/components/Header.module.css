@@ -1,0 +1,15 @@
+.header {
+  background: #ff7800;
+  margin-bottom: 1rem;
+}
+
+.title {
+  margin: 0 auto;
+  max-width: 210mm;
+  padding: 1rem;
+}
+
+.title h1 {
+  margin: 0;
+  color: #111;
+}
