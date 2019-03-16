@@ -22,7 +22,7 @@ const Skills = () => (
       <div>
         <em>Primary:</em> JavaScript, TypeScript, HTML, CSS, Java
         <br />
-        <em>Used</em>: Rust, ReasonML, Flow, Groovy, Golang, C++, C, Bash
+        <em>Used</em>: Rust, Reason, Flow, Groovy, Golang, C++, C, Bash
       </div>
       <div>Tools</div>
       <div>
