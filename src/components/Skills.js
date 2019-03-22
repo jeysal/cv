@@ -4,7 +4,7 @@ import infoStyles from './Info.module.css';
 
 const Skills = () => (
   <section>
-    <h2>Skills</h2>
+    <h2>Programming & technology</h2>
     <div className={infoStyles.infoGrid}>
       <div>Paradigms</div>
       <div>
