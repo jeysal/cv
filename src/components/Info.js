@@ -37,8 +37,8 @@ const Info = () => (
           <div>German (EU citizenship)</div>
           <div>Languages</div>
           <div>English (fluent), German (native)</div>
-          <div>&nbsp;</div>
-          <div>&nbsp;</div>
+          <small>&nbsp;</small>
+          <small>&nbsp;</small>
           <div>Email</div>
           <div>
             <a href={`mailto:${email}`}>{email}</a>

@@ -1,12 +1,12 @@
 .header {
   background: #ff7800;
-  margin-bottom: 1rem;
+  margin-bottom: 0.7rem;
 }
 
 .title {
   margin: 0 auto;
   max-width: 210mm;
-  padding: 1rem;
+  padding: 0.9rem 1rem 0.9rem 1rem;
 }
 
 .title h1 {
