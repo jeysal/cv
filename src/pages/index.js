@@ -7,16 +7,16 @@ import Info from '../components/Info';
 import History from '../components/History';
 import Skills from '../components/Skills';
 
+import styles from './index.module.css';
+
 const IndexPage = () => (
   <Layout>
     <SEO />
-    <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-      <div style={{ flexGrow: 1 }}>
+    <div className={styles.topSection}>
+      <div className={styles.infoWrapper}>
         <Info />
       </div>
-      <aside
-        style={{ maxWidth: `7cm`, marginLeft: `2rem`, marginRight: '2rem' }}
-      >
+      <aside className={styles.profilePicWrapper}>
         <ProfilePic />
       </aside>
     </div>

@@ -1,0 +1,21 @@
+.topSection {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 767px) {
+  .topSection {
+    flex-direction: column;
+  }
+}
+
+.infoWrapper {
+  flex-grow: 1;
+}
+
+.profilePicWrapper {
+  align-self: center;
+
+  max-width: 7cm;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}

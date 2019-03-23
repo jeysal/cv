@@ -1,4 +1,5 @@
 .img {
+  min-width: 128px;
   border-radius: 100%;
 }
 
@@ -20,12 +21,6 @@
 
 @media not print {
   .subtitlePrint {
-    display: none;
-  }
-}
-
-@media not print or screen and (min-width: 768px) {
-  .subtitleLarge {
     display: none;
   }
 }
