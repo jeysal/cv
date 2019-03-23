@@ -14,7 +14,10 @@ const HistoryDiagram = () => (
       const backgroundColor = schemeDark2[i % schemeDark2.length];
 
       const monthsBeforeFrom = differenceInCalendarMonths(from || start, start);
-      const monthsAfterTo = differenceInCalendarMonths(end, to || end);
+      const monthsAfterTo = differenceInCalendarMonths(
+        end,
+        (to && addMonths(to, 1)) || end,
+      );
 
       const topPercent = `${(monthsAfterTo * 100) / totalMonths}%`;
       const bottomPercent = `${(monthsBeforeFrom * 100) / totalMonths}%`;
