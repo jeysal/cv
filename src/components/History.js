@@ -40,7 +40,9 @@ const History = () => (
                 </small>
               )}
             </div>
-            <div>{description}</div>
+            <div style={{ lineHeight: '1.25rem', marginBottom: '0.25rem' }}>
+              {description}
+            </div>
           </React.Fragment>
         ))}
       </div>

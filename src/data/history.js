@@ -54,12 +54,10 @@ export default [
           </div>
           <div>Final grade 1.2 (scale 1.0 best to 4.0 worst)</div>
           <div>
-            <small>
-              <small>
-                Thesis title: Compile-time abstraction of JavaScript mocking
-                libraries powering a domain-specific language for interaction
-                testing
-              </small>
+            <small style={{ fontSize: '75%' }}>
+              Thesis title: Compile-time abstraction of JavaScript mocking
+              libraries powering a domain-specific language for interaction
+              testing
             </small>
           </div>
         </small>
