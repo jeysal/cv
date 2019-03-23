@@ -20,7 +20,7 @@ const History = () => (
       </aside>
       <div className={infoStyles.infoGrid}>
         {entries.map(({ from, to, description, location }, i) => (
-          <>
+          <React.Fragment key={i}>
             <div
               style={{
                 color: schemeDark2[i % schemeDark2.length],
@@ -41,7 +41,7 @@ const History = () => (
               )}
             </div>
             <div>{description}</div>
-          </>
+          </React.Fragment>
         ))}
       </div>
     </div>
