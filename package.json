@@ -1,7 +1,7 @@
 {
   "name": "@jeysal/cv",
   "private": true,
-  "description": "Tim Seckinger's résumé",
+  "description": "Tim Seckinger's resume",
   "version": "0.1.0",
   "author": "Tim Seckinger <seckinger.tim@gmail.com>",
   "dependencies": {

@@ -10,8 +10,8 @@ module.exports = {
     github: `jeysal`,
     twitter: `_jeysal_`,
 
-    title: `${author}'s résumé`,
-    description: `${author}'s résumé`,
+    title: `${author}'s resume`,
+    description: `${author}'s resume`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
