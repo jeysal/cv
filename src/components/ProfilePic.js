@@ -24,11 +24,8 @@ const ProfilePic = () => {
   `);
   const [showPic] = useQueryParam('showPic', BooleanParam);
 
-  return (
-    <aside
-      className={styles.profilePicWrapper}
-      style={{ display: showPic ? 'block' : 'none' }}
-    >
+  return showPic ? (
+    <aside className={styles.profilePicWrapper}>
       <Img fluid={fluid} alt="Profile picture" className={styles.img} />
       <div className={styles.subtitle}>
         <div className={styles.subtitleLarge}>
@@ -40,7 +37,7 @@ const ProfilePic = () => {
         </div>
       </div>
     </aside>
-  );
+  ) : null;
 };
 
 export default ProfilePic;
