@@ -1,3 +1,5 @@
-export const BooleanParam = null;
-export const StringParam = null;
-export const useQueryParam = () => [''];
+export const BooleanParam = 'boolean';
+export const StringParam = 'string';
+export const useQueryParam = (_name, type) => [
+  type === BooleanParam ? false : type === StringParam ? '' : undefined,
+];
