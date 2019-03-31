@@ -34,7 +34,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "clean": "rimraf public",
+    "clean": "rimraf public .cache",
     "format": "prettier --write \"**/*.{js,jsx,json,md,css}\"",
     "start": "gatsby develop",
     "build": "gatsby build",
