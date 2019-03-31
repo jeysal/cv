@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 
-import { useQueryParam, StringParam } from 'use-query-params';
+import { useQueryParam, BooleanParam, StringParam } from 'use-query-params';
 import age from 's-age';
 
 import styles from './Info.module.css';
@@ -23,6 +23,7 @@ const Info = () => {
       }
     }
   `);
+  const [showAge] = useQueryParam('showAge', BooleanParam);
   const [phone] = useQueryParam('phone', StringParam);
 
   return (
@@ -31,10 +32,14 @@ const Info = () => {
       <div className={styles.infoGrid}>
         <div>Name</div>
         <div>{author}</div>
-        <div>Born</div>
-        <div>
-          {dateOfBirth} (age {age(dateOfBirth)})
-        </div>
+        {showAge && (
+          <>
+            <div>Born</div>
+            <div>
+              {dateOfBirth} (age {age(dateOfBirth)})
+            </div>
+          </>
+        )}
         <div>Nationality</div>
         <div>German (EU citizenship)</div>
         <div>Languages</div>
