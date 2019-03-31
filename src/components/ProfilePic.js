@@ -22,7 +22,7 @@ const ProfilePic = () => {
       }
     }
   `);
-  const [showPic] = useQueryParam('showPic', BooleanParam);
+  const [showPic = true] = useQueryParam('showPic', BooleanParam);
 
   return showPic ? (
     <aside className={styles.profilePicWrapper}>

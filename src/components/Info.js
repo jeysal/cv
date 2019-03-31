@@ -23,7 +23,7 @@ const Info = () => {
       }
     }
   `);
-  const [showAge] = useQueryParam('showAge', BooleanParam);
+  const [showAge = false] = useQueryParam('showAge', BooleanParam);
   const [phone] = useQueryParam('phone', StringParam);
 
   return (
