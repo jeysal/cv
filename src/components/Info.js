@@ -45,8 +45,12 @@ const Info = () => {
         <div>
           <a href={`mailto:${email}`}>{email}</a>
         </div>
-        <div>Phone</div>
-        <div>{(phone && `+${phone}`) || '<hidden in public version>'}</div>
+        {phone && (
+          <>
+            <div>Phone</div>
+            <div>{`+${phone}` || '<hidden in public version>'}</div>
+          </>
+        )}
         <div>GitHub</div>
         <div>
           <a href={`https://github.com/${github}`}>{github}</a>
