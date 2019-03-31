@@ -1,3 +1,11 @@
+.profilePicWrapper {
+  align-self: center;
+
+  max-width: 7cm;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
 .img {
   min-width: 128px;
   border-radius: 100%;

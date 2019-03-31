@@ -16,9 +16,7 @@ const IndexPage = () => (
       <div className={styles.infoWrapper}>
         <Info />
       </div>
-      <aside className={styles.profilePicWrapper}>
-        <ProfilePic />
-      </aside>
+      <ProfilePic />
     </div>
     <hr />
     <History />

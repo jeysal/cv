@@ -2,6 +2,8 @@ import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
+import { useQueryParam, BooleanParam } from 'use-query-params';
+
 import styles from './ProfilePic.module.css';
 
 const ProfilePic = () => {
@@ -20,9 +22,13 @@ const ProfilePic = () => {
       }
     }
   `);
+  const [showPic] = useQueryParam('showPic', BooleanParam);
 
   return (
-    <div>
+    <aside
+      className={styles.profilePicWrapper}
+      style={{ display: showPic ? 'block' : 'none' }}
+    >
       <Img fluid={fluid} alt="Profile picture" className={styles.img} />
       <div className={styles.subtitle}>
         <div className={styles.subtitleLarge}>
@@ -33,7 +39,7 @@ const ProfilePic = () => {
           visit web version to view picture
         </div>
       </div>
-    </div>
+    </aside>
   );
 };
 

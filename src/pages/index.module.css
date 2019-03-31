@@ -11,11 +11,3 @@
 .infoWrapper {
   flex-grow: 1;
 }
-
-.profilePicWrapper {
-  align-self: center;
-
-  max-width: 7cm;
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
