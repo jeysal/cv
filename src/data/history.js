@@ -45,7 +45,7 @@ export default [
         <div>
           Student at{' '}
           <a href="https://www.fh-dortmund.de/">Fachhochschule Dortmund</a>{' '}
-          University of Applies Sciences and Arts
+          University of Applied Sciences and Arts
         </div>
         <small>
           <div>
