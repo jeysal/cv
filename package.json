@@ -20,7 +20,7 @@
     "react-dom": "^16.8.4",
     "react-helmet": "^5.2.0",
     "s-age": "^1.1.2",
-    "use-query-params": "^0.2.0"
+    "use-query-params": "^0.3.0"
   },
   "devDependencies": {
     "gh-pages": "^2.0.1",
