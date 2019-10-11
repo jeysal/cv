@@ -3,6 +3,16 @@ import * as React from 'react';
 export const start = new Date('2014-01');
 export default [
   {
+    from: '2019-10',
+    location: 'London, UK',
+    description: (
+      <>
+        Software Engineer at <a href="https://yld.io/">YLD</a>, specializing in
+        React, Node, and other technologies in the JavaScript ecosystem
+      </>
+    ),
+  },
+  {
     from: '2019-01',
     location: 'Remote',
     description: (
@@ -15,6 +25,7 @@ export default [
   },
   {
     from: '2018-10',
+    to: '2019-09',
     location: 'DTM/CGN/BER, DE',
     description: (
       <>
