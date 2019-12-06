@@ -6,11 +6,11 @@
   "author": "Tim Seckinger <seckinger.tim@gmail.com>",
   "dependencies": {
     "d3-scale-chromatic": "^1.3.3",
-    "date-fns": "^1.30.1",
+    "date-fns": "^2.0.0",
     "gatsby": "^2.1.27",
     "gatsby-image": "^2.0.31",
     "gatsby-plugin-manifest": "^2.0.22",
-    "gatsby-plugin-offline": "^2.0.24",
+    "gatsby-plugin-offline": "^3.0.0",
     "gatsby-plugin-react-helmet": "^3.0.8",
     "gatsby-plugin-sharp": "^2.0.25",
     "gatsby-source-filesystem": "^2.0.23",
@@ -20,12 +20,12 @@
     "react-dom": "^16.8.4",
     "react-helmet": "^5.2.0",
     "s-age": "^1.1.2",
-    "use-query-params": "^0.3.0"
+    "use-query-params": "^0.4.5"
   },
   "devDependencies": {
     "gh-pages": "^2.0.1",
     "prettier": "^1.16.4",
-    "rimraf": "^2.6.3"
+    "rimraf": "^3.0.0"
   },
   "keywords": [
     "gatsby",

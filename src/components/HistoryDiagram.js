@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { schemeDark2 } from 'd3-scale-chromatic';
-import { addMonths, differenceInCalendarMonths } from 'date-fns';
+import addMonths from 'date-fns/addMonths';
+import differenceInCalendarMonths from 'date-fns/differenceInCalendarMonths';
 
 import entries, { start } from '../data/history';
 import styles from './HistoryDiagram.module.css';
@@ -13,10 +14,13 @@ const HistoryDiagram = () => (
     {entries.map(({ from, to }, i) => {
       const backgroundColor = schemeDark2[i % schemeDark2.length];
 
-      const monthsBeforeFrom = differenceInCalendarMonths(from || start, start);
+      const monthsBeforeFrom = differenceInCalendarMonths(
+        (from && new Date(from)) || start,
+        start,
+      );
       const monthsAfterTo = differenceInCalendarMonths(
         end,
-        (to && addMonths(to, 1)) || end,
+        (to && addMonths(new Date(to), 1)) || end,
       );
 
       const topPercent = `${(monthsAfterTo * 100) / totalMonths}%`;
