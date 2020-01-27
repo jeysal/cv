@@ -1,4 +1,4 @@
-const author = 'Tim Seckinger';
+const author = 'Tim Rolf Seckinger';
 
 module.exports = {
   pathPrefix: '/cv',
