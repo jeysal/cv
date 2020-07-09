@@ -8,6 +8,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+@page {
+  margin: 0;
+  size: 8in 11.5in;
+}
 article,
 aside,
 details,
