@@ -51,6 +51,12 @@ a:active,
 a:hover {
   outline-width: 0;
 }
+@media print {
+  a {
+    color: unset;
+    text-decoration: unset;
+  }
+}
 abbr[title] {
   border-bottom: none;
   text-decoration: underline;
