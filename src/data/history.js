@@ -4,7 +4,7 @@ export const start = new Date('2014-01');
 export default [
   {
     from: '2019-10',
-    location: 'London, UK',
+    location: 'London, UK / Remote',
     description: (
       <>
         Software Engineer at <a href="https://yld.io/">YLD</a>, specializing in
