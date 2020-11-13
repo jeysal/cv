@@ -10,7 +10,7 @@ const end = addMonths(new Date(), 1);
 const totalMonths = differenceInCalendarMonths(end, start);
 
 const HistoryDiagram = () => (
-  <div className={styles.diagram}>
+  <div role="presentation" className={styles.diagram}>
     {entries.map(({ from, to }, i) => {
       const backgroundColor = schemeDark2[i % schemeDark2.length];
 
