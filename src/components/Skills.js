@@ -13,16 +13,15 @@ const Skills = () => (
       </div>
       <div>Main interests</div>
       <div>
-        Testing, Compilers & static analysis, Tooling & DX, Build systems, Web
-        technologies
+        Web technologies, Testing, Compilers & static analysis, Tooling & DX, Build systems
       </div>
       <div>Testing</div>
       <div>Integration, Unit, E2E, UI, TDD, Property-based</div>
       <div>Languages</div>
       <div>
-        <em>Primary:</em> JavaScript, TypeScript, HTML, CSS, Java
+        <em>Primary:</em> JavaScript, TypeScript, HTML, CSS
         <br />
-        <em>Used</em>: Rust, Reason, Flow, Groovy, Golang, C++, C, Bash
+        <em>Used</em>: Rust, Java, ReScript, Flow, Groovy, Golang, C++, C, Bash
       </div>
       <div>Tools</div>
       <div>
