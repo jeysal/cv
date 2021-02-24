@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 
 import infoStyles from './Info.module.css';
 
@@ -6,17 +6,18 @@ const Skills = () => (
   <section>
     <h2>Programming & technology</h2>
     <div className={infoStyles.infoGrid}>
+      <div>Main interests</div>
+      <div>
+        Web technologies, Testing, Compilers & static analysis, Tooling & DX,
+        Build systems
+      </div>
+      <div>Testing</div>
+      <div>Integration, Unit, E2E, UI, TDD, Property-based</div>
       <div>Paradigms</div>
       <div>
         Functional, Functional & Reactive, Declarative, Imperative,
         Object-oriented
       </div>
-      <div>Main interests</div>
-      <div>
-        Web technologies, Testing, Compilers & static analysis, Tooling & DX, Build systems
-      </div>
-      <div>Testing</div>
-      <div>Integration, Unit, E2E, UI, TDD, Property-based</div>
       <div>Languages</div>
       <div>
         <em>Primary:</em> JavaScript, TypeScript, HTML, CSS

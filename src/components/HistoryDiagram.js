@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import { schemeDark2 } from 'd3-scale-chromatic';
 import addMonths from 'date-fns/addMonths';
 import differenceInCalendarMonths from 'date-fns/differenceInCalendarMonths';

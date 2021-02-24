@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 
 export const start = new Date('2014-01');
 export default [
@@ -8,7 +8,9 @@ export default [
     description: (
       <>
         Software Engineer at <a href="https://yld.io/">YLD</a>, specializing in
-        React, Node, and other technologies in the JavaScript ecosystem
+        React, Node, and other technologies in the JavaScript ecosystem.
+        Architecting a React component library and frontend. Giving training in
+        JavaScript, TypeScript, React, and testing topics.
       </>
     ),
   },
@@ -18,8 +20,8 @@ export default [
     description: (
       <>
         <a href="https://github.com/facebook/jest">Jest</a> core contributor in
-        spare time, development of a popular open-source JavaScript testing
-        platform
+        spare time, maintenance and advancement of a popular open-source
+        JavaScript testing platform
       </>
     ),
   },
@@ -29,9 +31,10 @@ export default [
     location: 'DTM/CGN/BER, DE',
     description: (
       <>
-        Software Engineer at <a href="https://www.adesso.de/">adesso AG</a>,
+        Software Engineer at <a href="https://www.adesso.de/">adesso SE</a>,
         full-stack JavaScript web development in a customer project using Scrum
-        methodology
+        methodology. Architecting the frontend, managing developer tooling, and
+        coaching developers without JavaScript experience.
       </>
     ),
   },
@@ -42,7 +45,7 @@ export default [
     description: (
       <>
         Part-time working student at{' '}
-        <a href="https://www.adesso.de/">adesso AG</a>, agile product
+        <a href="https://www.adesso.de/">adesso SE</a>, agile product
         development of an IoT and data visualization platform
       </>
     ),
@@ -81,7 +84,7 @@ export default [
     location: 'Dortmund, DE',
     description: (
       <>
-        Vocational education at <a href="https://www.adesso.de/">adesso AG</a>{' '}
+        Vocational education at <a href="https://www.adesso.de/">adesso SE</a>{' '}
         with parallel studies, development of Java backends and JavaScript
         frontends for internal web applications
       </>
