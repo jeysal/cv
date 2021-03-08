@@ -1,7 +1,6 @@
 const author = 'Tim Seckinger';
 
 module.exports = {
-  pathPrefix: '/cv',
   siteMetadata: {
     author,
     dateOfBirth: '1997-09-06',
