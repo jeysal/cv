@@ -18,7 +18,7 @@ const Footer = () => {
       }
     }
   `);
-  const webVersionUrl = `https://${github}.github.io/cv`;
+  const webVersionUrl = `https://cv.jeys.al/`;
 
   return (
     <>

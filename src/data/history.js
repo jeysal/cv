@@ -19,9 +19,9 @@ export default [
     location: 'Remote',
     description: (
       <>
-        <a href="https://github.com/facebook/jest">Jest</a> core contributor in
-        spare time, maintenance and advancement of a popular open-source
-        JavaScript testing platform
+        <a href="https://jestjs.io/">Jest</a> core contributor in spare time,
+        maintenance and advancement of a popular open-source JavaScript testing
+        platform
       </>
     ),
   },
