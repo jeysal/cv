@@ -32,7 +32,8 @@ const Skills = () => (
       </div>
       <div>Libraries</div>
       <div>
-        <em>Selection:</em> React, Angular, Cycle.js, RxJS, Express, Spring
+        <em>Selection:</em> React, Angular, Cycle.js, Emotion, RxJS, Express,
+        Spring
       </div>
       <div>Databases</div>
       <div>Neo4j, MongoDB, various SQL-based, ORMs</div>

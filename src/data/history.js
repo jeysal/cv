@@ -4,13 +4,19 @@ export const start = new Date('2014-01');
 export default [
   {
     from: '2019-10',
+    to: '2021-06',
     location: 'London, UK / Remote',
     description: (
       <>
-        Software Engineer at <a href="https://yld.io/">YLD</a>, specializing in
-        React, Node, and other technologies in the JavaScript ecosystem.
-        Architecting a React component library and frontend. Giving training in
-        JavaScript, TypeScript, React, and testing topics.
+        Software Engineer at <a href="https://yld.io/">YLD</a>, specializing in{' '}
+        <a href="https://reactjs.org/">React</a>,{' '}
+        <a href="https://nodejs.org/">Node</a>, and other technologies in the
+        JavaScript ecosystem. Architecting a React component library and
+        frontend for the <a href="https://hub.asap.science/">ASAP Initiative</a>
+        . Helping migrate{' '}
+        <a href="https://www.bbcgoodfood.com/">BBC Good Food</a> to a
+        React/Next.js frontend. Giving training in JavaScript, TypeScript,
+        React, and testing topics.
       </>
     ),
   },
