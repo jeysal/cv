@@ -29,7 +29,7 @@ const ProfilePic = () => {
       <Img fluid={fluid} alt="Profile picture" className={styles.img} />
       <div className={styles.subtitle}>
         <div className={styles.subtitleLarge}>
-          picture blurred - equal chances for everyone
+          picture obscured - equal chances for everyone
         </div>
         <div className={styles.subtitleWeb}>press to reveal</div>
         <div className={styles.subtitlePrint}>

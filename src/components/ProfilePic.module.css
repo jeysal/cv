@@ -12,7 +12,7 @@
 }
 
 .img:not(:active) {
-  filter: blur(4mm);
+  filter: blur(4mm) invert(0.9) hue-rotate(160deg);
 }
 
 .subtitle {
