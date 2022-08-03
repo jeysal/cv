@@ -4,12 +4,15 @@ export const start = new Date('2014-01');
 export default [
   {
     from: '2021-06',
+    to: '2022-08',
     location: 'Remote',
     description: (
       <>
         Frontend Lead at Decipad, developing a{' '}
-        <a href="https://reactjs.org/">React</a> application with real-time
-        collaboration and code editing features for a seed-stage startup.
+        <a href="https://reactjs.org/">React</a> application with a real-time
+        collaborative editor including code editing features for a seed-stage
+        startup, as well as an accompanying UI library implementing a design
+        system.
       </>
     ),
   },
