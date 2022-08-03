@@ -15,12 +15,12 @@ const History = () => (
         columnGap: '5mm',
       }}
     >
-      <aside>
+      <div role="presentation">
         <HistoryDiagram />
-      </aside>
-      <div className={infoStyles.infoGrid}>
+      </div>
+      <ol className={infoStyles.infoGrid}>
         {entries.map(({ from, to, description, location }, i) => (
-          <React.Fragment key={i}>
+          <li key={i}>
             <div
               style={{
                 color: schemeDark2[i % schemeDark2.length],
@@ -29,6 +29,7 @@ const History = () => (
               <div
                 style={{
                   fontFamily: 'monospace',
+                  fontWeight: 'bold',
                   textAlign: from ? 'left' : 'right',
                 }}
               >
@@ -43,9 +44,9 @@ const History = () => (
             <div style={{ lineHeight: '1.25rem', marginBottom: '0.25rem' }}>
               {description}
             </div>
-          </React.Fragment>
+          </li>
         ))}
-      </div>
+      </ol>
     </div>
   </section>
 );

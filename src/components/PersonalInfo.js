@@ -29,38 +29,41 @@ const Info = () => {
   return (
     <section>
       <h2>Personal & contact information</h2>
-      <div className={styles.infoGrid}>
-        <div>Name</div>
-        <div>{author}</div>
+      <dl className={styles.infoGrid}>
+        <dt>Name</dt>
+        <dd>{author}</dd>
         {showAge && (
           <>
-            <div>Born</div>
-            <div>
+            <dt>Born</dt>
+            <dl>
               {dateOfBirth} (age {age(dateOfBirth)})
-            </div>
+            </dl>
           </>
         )}
-        <div>Nationality</div>
-        <div>German (EU citizenship)</div>
-        <div>Languages</div>
-        <div>English (fluent), German (native)</div>
-        <small>&nbsp;</small>
-        <small>&nbsp;</small>
-        <div>Email</div>
-        <div>
+        <dt>Nationality</dt>
+        <dd>German (EU citizenship)</dd>
+        <dt>Languages</dt>
+        <dd>
+          <ol>
+            <li>English (fluent)</li>
+            <li>German (native)</li>
+          </ol>
+        </dd>
+        <dt className={styles.newSection}>Email</dt>
+        <dd className={styles.newSection}>
           <a href={`mailto:${email}`}>{email}</a>
-        </div>
+        </dd>
         {phone && (
           <>
-            <div>Phone</div>
-            <div>{`+${phone}` || '<hidden in public version>'}</div>
+            <dt>Phone</dt>
+            <dd>{`+${phone}` || '<hidden in public version>'}</dd>
           </>
         )}
-        <div>GitHub</div>
-        <div>
+        <dt>GitHub</dt>
+        <dd>
           <a href={`https://github.com/${github}`}>{github}</a>
-        </div>
-      </div>
+        </dd>
+      </dl>
     </section>
   );
 };

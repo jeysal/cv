@@ -5,6 +5,19 @@
   gap: 0.2rem 1rem;
 }
 
-.infoGrid > div:nth-child(odd) {
-  font-weight: bold;
+.infoGrid > li {
+  display: contents;
+}
+
+.infoGrid dd ul,
+.infoGrid dd ol,
+.infoGrid dd li {
+  display: inline;
+}
+.infoGrid dd li:not(:first-child)::before {
+  content: ', ';
+}
+
+.newSection {
+  padding-top: 1em;
 }
