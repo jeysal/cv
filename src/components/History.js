@@ -7,7 +7,7 @@ import entries from '../data/history';
 
 const History = () => (
   <section>
-    <h2>Experience & education</h2>
+    <h2>Experience & Education</h2>
     <div
       style={{
         display: 'grid',
