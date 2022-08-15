@@ -181,7 +181,7 @@ const Skills = () => (
       </p>
     </section>
     <section>
-      <h3>Developer Tooling</h3>
+      <h3>Developer tooling</h3>
       <p>
         In addition to Jest, I have deep knowledge in and contributed to other
         crucical developer tools in the JS ecosystem, such as{' '}
