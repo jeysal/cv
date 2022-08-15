@@ -7,7 +7,7 @@ import entries from '../data/history';
 
 const History = () => (
   <section>
-    <h2>Education & experience</h2>
+    <h2>Experience & education</h2>
     <div
       style={{
         display: 'grid',
@@ -15,14 +15,13 @@ const History = () => (
         columnGap: '5mm',
       }}
     >
-      <div role="presentation">
-        <HistoryDiagram />
-      </div>
+      <HistoryDiagram />
       <ol className={infoStyles.infoGrid}>
         {entries.map(({ from, to, description, location }, i) => (
           <li key={i}>
             <div
               style={{
+                marginBottom: '0.25rem',
                 color: schemeDark2[i % schemeDark2.length],
               }}
             >
@@ -41,7 +40,7 @@ const History = () => (
                 </small>
               )}
             </div>
-            <div style={{ lineHeight: '1.25rem', marginBottom: '0.25rem' }}>
+            <div style={{ lineHeight: '1.4em', marginBottom: '0.25rem' }}>
               {description}
             </div>
           </li>

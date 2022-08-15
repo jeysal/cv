@@ -9,7 +9,7 @@ import styles from './Info.module.css';
 const Info = () => {
   const {
     site: {
-      siteMetadata: { author, dateOfBirth, email, github },
+      siteMetadata: { author, dateOfBirth, email, github, website },
     },
   } = useStaticQuery(graphql`
     query InfoQuery {
@@ -19,6 +19,7 @@ const Info = () => {
           dateOfBirth
           email
           github
+          website
         }
       }
     }
@@ -61,7 +62,11 @@ const Info = () => {
         )}
         <dt>GitHub</dt>
         <dd>
-          <a href={`https://github.com/${github}`}>{github}</a>
+          <a href={github}>{github}</a>
+        </dd>
+        <dt>Other links</dt>
+        <dd>
+          <a href={website}>{website}</a>
         </dd>
       </dl>
     </section>

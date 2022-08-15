@@ -8,11 +8,11 @@ export default [
     location: 'Remote',
     description: (
       <>
-        Frontend Lead at Decipad, developing a{' '}
-        <a href="https://reactjs.org/">React</a> application with a real-time
-        collaborative editor including code editing features for a seed-stage
-        startup, as well as an accompanying UI library implementing a design
-        system.
+        Frontend Lead at <a href="https://decipad.com/">Decipad</a>, developing
+        a <a href="https://reactjs.org/">React</a> application with a real-time
+        collaborative editor including code editing features and integration
+        with a domain-specific language for a seed-stage startup, as well as an
+        accompanying UI library implementing a design system.
       </>
     ),
   },
@@ -23,8 +23,8 @@ export default [
     description: (
       <>
         Software Engineer at <a href="https://yld.io/">YLD</a>, specializing in
-        React, <a href="https://nodejs.org/">Node</a>, and other technologies in
-        the JavaScript ecosystem. Architecting and leading development on a
+        React, <a href="https://nodejs.org/">Node.js</a>, and other technologies
+        in the JavaScript ecosystem. Architecting and leading development on a
         React component library and frontend for the{' '}
         <a href="https://hub.asap.science/">ASAP Initiative</a>. Helping migrate{' '}
         <a href="https://www.bbcgoodfood.com/">BBC Good Food</a> to a
@@ -40,7 +40,7 @@ export default [
       <>
         <a href="https://jestjs.io/">Jest</a> core contributor in spare time,
         maintenance and advancement of a popular open-source JavaScript testing
-        platform
+        platform. Active mostly in 2019-2021.
       </>
     ),
   },
@@ -50,8 +50,8 @@ export default [
     location: 'DTM/CGN/BER, DE',
     description: (
       <>
-        Software Engineer at <a href="https://www.adesso.de/">adesso SE</a>,
-        full-stack JavaScript web development in a customer project using Scrum
+        Software Engineer at <a href="https://www.adesso.de/en/">adesso SE</a>,
+        full-stack TypeScript web development in a customer project using Scrum
         methodology. Architecting the frontend, managing developer tooling, and
         coaching developers without JavaScript experience.
       </>
@@ -64,8 +64,8 @@ export default [
     description: (
       <>
         Part-time working student at{' '}
-        <a href="https://www.adesso.de/">adesso SE</a>, agile product
-        development of an IoT and data visualization platform
+        <a href="https://www.adesso.de/en/">adesso SE</a>, agile product
+        development of an IoT and data visualization platform.
       </>
     ),
   },
@@ -77,8 +77,8 @@ export default [
       <>
         <div>
           Student at{' '}
-          <a href="https://www.fh-dortmund.de/">Fachhochschule Dortmund</a>{' '}
-          University of Applied Sciences and Arts
+          <a href="https://www.fh-dortmund.de/en/">Fachhochschule Dortmund</a>{' '}
+          University of Applied Sciences and Arts.
         </div>
         <small>
           <div>
@@ -103,9 +103,10 @@ export default [
     location: 'Dortmund, DE',
     description: (
       <>
-        Vocational education at <a href="https://www.adesso.de/">adesso SE</a>{' '}
-        with parallel studies, development of Java backends and JavaScript
-        frontends for internal web applications
+        Vocational education at{' '}
+        <a href="https://www.adesso.de/en/">adesso SE</a> with parallel studies,
+        development of Java backends and JavaScript frontends for internal web
+        applications.
       </>
     ),
   },
@@ -114,7 +115,10 @@ export default [
     location: 'Wetter, DE',
     description: (
       <>
-        <div>Secondary education, concluded with Abitur</div>
+        <div>
+          Secondary education, concluded with Abitur (German high school
+          degree).
+        </div>
         <small>
           <div>
             Average grade 1.6 (equiv. A in US / UK, scale 1.0 best to 4.0 worst)

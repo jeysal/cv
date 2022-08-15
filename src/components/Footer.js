@@ -6,14 +6,14 @@ import styles from './Footer.module.css';
 const Footer = () => {
   const {
     site: {
-      siteMetadata: { author, github },
+      siteMetadata: { author, website },
     },
   } = useStaticQuery(graphql`
     query FooterQuery {
       site {
         siteMetadata {
           author
-          github
+          website
         }
       }
     }
@@ -27,7 +27,7 @@ const Footer = () => {
         <div className={styles.footerWeb}>
           Built by
           {` `}
-          <a href={`https://github.com/${github}`}>{author}</a>
+          <a href={website}>{author}</a>
         </div>
         <div className={styles.footerPrint}>
           Web version at{' '}

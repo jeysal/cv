@@ -28,13 +28,17 @@ const ProfilePic = () => {
     <aside className={styles.profilePicWrapper}>
       <Img fluid={fluid} alt="Profile picture" className={styles.img} />
       <div className={styles.subtitle}>
-        <div className={styles.subtitleLarge}>
-          picture obscured - equal chances for everyone
-        </div>
-        <div className={styles.subtitleWeb}>press to reveal</div>
-        <div className={styles.subtitlePrint}>
-          visit web version to view picture
-        </div>
+        <p className={styles.subtitleLarge}>
+          Picture obscured — equal chances for everyone
+        </p>
+        <p className={styles.subtitleWeb}>
+          If resume pictures are customary in your country, press the picture to
+          reveal
+        </p>
+        <p className={styles.subtitlePrint}>
+          If resume pictures are customary in your country, please visit the web
+          version to view the picture
+        </p>
       </div>
     </aside>
   ) : null;

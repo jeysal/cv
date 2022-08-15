@@ -5,6 +5,7 @@ module.exports = {
     author,
     dateOfBirth: '1997-09-06',
 
+    website: 'https://jeys.al',
     email: 'seckinger.tim@gmail.com',
     github: `jeysal`,
     twitter: `_jeysal_`,

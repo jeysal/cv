@@ -19,9 +19,9 @@ const IndexPage = () => (
       <ProfilePic />
     </section>
     <hr />
-    <History />
-    <hr />
     <Skills />
+    <hr />
+    <History />
   </Layout>
 );
 
