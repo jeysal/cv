@@ -29,7 +29,7 @@ const Info = () => {
 
   return (
     <section>
-      <h2>Personal & Contact Information</h2>
+      <h2>Personal & contact information</h2>
       <dl className={styles.infoGrid}>
         <dt>Name</dt>
         <dd>{author}</dd>

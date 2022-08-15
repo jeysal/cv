@@ -5,7 +5,7 @@ import infoStyles from './Info.module.css';
 const Skills = () => (
   <>
     <section>
-      <h2>Skills & Specialties</h2>
+      <h2>Skills & specialties</h2>
       <h3>Keywords</h3>
       <p>
         You're in a rush, into buzzwords, or searching for something specific?
@@ -114,7 +114,7 @@ const Skills = () => (
       </dl>
     </section>
     <section>
-      <h3>Frontend Engineering</h3>
+      <h3>Frontend engineering</h3>
       <p>
         While I've also done full-stack development, the majority of my work for
         many years now has been in frontend engineering. I enjoy the focus to
