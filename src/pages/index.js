@@ -5,6 +5,7 @@ import SEO from '../components/SEO';
 import ProfilePic from '../components/ProfilePic';
 import Info from '../components/PersonalInfo';
 import History from '../components/History';
+import Keywords from '../components/Keywords';
 import Skills from '../components/Skills';
 
 import styles from './index.module.css';
@@ -19,9 +20,11 @@ const IndexPage = () => (
       <ProfilePic />
     </section>
     <hr />
-    <Skills />
+    <Keywords />
     <hr />
     <History />
+    <hr />
+    <Skills />
   </Layout>
 );
 
