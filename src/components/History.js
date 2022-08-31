@@ -12,7 +12,7 @@ const History = () => (
       style={{
         display: 'grid',
         gridTemplateColumns: '1cm auto',
-        columnGap: '5mm',
+        columnGap: '2%',
       }}
     >
       <HistoryDiagram />
@@ -27,17 +27,29 @@ const History = () => (
             >
               <div
                 style={{
+                  display: 'flex',
+                  flexWrap: 'wrap',
+
                   fontFamily: 'monospace',
                   fontWeight: 'bold',
-                  textAlign: from ? 'left' : 'right',
+                  whiteSpace: 'pre-wrap',
                 }}
               >
-                {from} - {to}
+                {from && <span style={{ display: 'block' }}>{from} </span>}
+                <span
+                  style={{
+                    display: 'block',
+                    flexGrow: 1,
+                    textAlign: to ? 'end' : 'start',
+                  }}
+                >
+                  - {to}
+                </span>
               </div>
               {location && (
-                <small>
-                  <div style={{ textAlign: 'center' }}>{location}</div>
-                </small>
+                <div style={{ textAlign: 'center' }}>
+                  <small>{location}</small>
+                </div>
               )}
             </div>
             <div style={{ lineHeight: '1.4em', marginBottom: '0.25rem' }}>
