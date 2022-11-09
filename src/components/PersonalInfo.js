@@ -62,7 +62,9 @@ const Info = () => {
         )}
         <dt>GitHub</dt>
         <dd>
-          <a href={github}>{github}</a>
+          <a href={new URL('/' + github, 'https://github.com').toString()}>
+            {github}
+          </a>
         </dd>
         <dt>Other links</dt>
         <dd>
