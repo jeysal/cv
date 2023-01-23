@@ -36,9 +36,9 @@ const Info = () => {
         {showAge && (
           <>
             <dt>Born</dt>
-            <dl>
+            <dd>
               {dateOfBirth} (age {age(dateOfBirth)})
-            </dl>
+            </dd>
           </>
         )}
         <dt>Nationality</dt>
