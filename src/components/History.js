@@ -2,7 +2,7 @@ import React from 'react';
 import { schemeDark2 } from 'd3-scale-chromatic';
 
 import HistoryDiagram from './HistoryDiagram';
-import infoStyles from './Info.module.css';
+import * as infoStyles from './Info.module.css';
 import entries from '../data/history';
 
 const History = () => (

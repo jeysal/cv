@@ -4,7 +4,7 @@ import addMonths from 'date-fns/addMonths';
 import differenceInCalendarMonths from 'date-fns/differenceInCalendarMonths';
 
 import entries, { start } from '../data/history';
-import styles from './HistoryDiagram.module.css';
+import * as styles from './HistoryDiagram.module.css';
 
 const end = addMonths(new Date(), 1);
 const totalMonths = differenceInCalendarMonths(end, start);

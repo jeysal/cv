@@ -1,7 +1,7 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 
-import styles from './Footer.module.css';
+import * as styles from './Footer.module.css';
 
 const Footer = () => {
   const {
@@ -23,7 +23,7 @@ const Footer = () => {
   return (
     <>
       <hr />
-      <footer className={styles.footer}>
+      <footer>
         <div className={styles.footerWeb}>
           Built by
           {` `}

@@ -1,7 +1,7 @@
 import React from 'react';
 
 export const start = new Date('2014-01');
-export default [
+const history = [
   {
     from: '2021-06',
     to: '2022-08',
@@ -128,3 +128,4 @@ export default [
     ),
   },
 ];
+export default history;

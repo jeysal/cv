@@ -1,6 +1,6 @@
 import React from 'react';
 
-import infoStyles from './Info.module.css';
+import * as infoStyles from './Info.module.css';
 
 const Keywords = () => (
   <section>

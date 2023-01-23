@@ -4,7 +4,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 import { useQueryParam, BooleanParam, StringParam } from 'use-query-params';
 import age from 's-age';
 
-import styles from './Info.module.css';
+import * as styles from './Info.module.css';
 
 const Info = () => {
   const {

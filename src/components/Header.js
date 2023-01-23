@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import styles from './Header.module.css';
+import * as styles from './Header.module.css';
 
 const Header = ({ siteTitle }) => (
   <header className={styles.header}>
