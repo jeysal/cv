@@ -3,6 +3,17 @@ import React from 'react';
 export const start = new Date('2014-01');
 const history = [
   {
+    from: '2023-01',
+    location: 'Remote',
+    description: (
+      <>
+        Tech lead at <a href="https://https://playt.net/">PLAYT.net</a>,
+        building a multiplayer casual games platform in full-stack TypeScript
+        for a late seed-stage startup.
+      </>
+    ),
+  },
+  {
     from: '2021-06',
     to: '2022-08',
     location: 'Remote',
@@ -63,7 +74,7 @@ const history = [
     location: 'Dortmund, DE',
     description: (
       <>
-        Part-time working student at{' '}
+        Part-time working student Software Engineer at{' '}
         <a href="https://www.adesso.de/en/">adesso SE</a>, agile product
         development of an IoT and data visualization platform.
       </>
