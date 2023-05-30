@@ -46,12 +46,13 @@ const history = [
   },
   {
     from: '2019-01',
+    to: '2021-05',
     location: 'Remote',
     description: (
       <>
         <a href="https://jestjs.io/">Jest</a> core contributor in spare time,
         maintenance and advancement of a popular open-source JavaScript testing
-        platform. Active mostly in 2019-2021.
+        platform.
       </>
     ),
   },
