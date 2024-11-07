@@ -7,7 +7,7 @@ const history = [
     location: 'Remote',
     description: (
       <>
-        Tech Lead at <a href="https://https://playt.net/">PLAYT.net</a>,
+        Tech Lead at <a href="https://playt.net/">PLAYT.net</a>,
         building a multiplayer casual games platform in full-stack TypeScript
         for a late seed-stage startup.
       </>
