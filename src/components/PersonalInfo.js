@@ -42,7 +42,7 @@ const Info = () => {
           </>
         )}
         <dt>Nationality</dt>
-        <dd>German (EU citizenship)</dd>
+        <dd>German</dd>
         <dt>Languages</dt>
         <dd>
           <ol>

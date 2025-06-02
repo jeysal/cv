@@ -22,6 +22,16 @@ const Keywords = () => (
           <li>Build systems</li>
         </ol>
       </dd>
+      <dt>Programming paradigms</dt>
+      <dd>
+        <ol>
+          <li>Functional</li>
+          <li>Functional & Reactive</li>
+          <li>Declarative</li>
+          <li>Imperative</li>
+          <li>Object-oriented</li>
+        </ol>
+      </dd>
       <dt>Testing types</dt>
       <dd>
         <ol>
@@ -32,16 +42,6 @@ const Keywords = () => (
           <li>Visual</li>
           <li>TDD</li>
           <li>Property-based</li>
-        </ol>
-      </dd>
-      <dt>Programming paradigms</dt>
-      <dd>
-        <ol>
-          <li>Functional</li>
-          <li>Functional & Reactive</li>
-          <li>Declarative</li>
-          <li>Imperative</li>
-          <li>Object-oriented</li>
         </ol>
       </dd>
       <dt>Languages</dt>
@@ -92,11 +92,11 @@ const Keywords = () => (
         <em>Small selection:</em>{' '}
         <ol>
           <li>React</li>
+          <li>Next.js</li>
           <li>Angular</li>
           <li>Cycle.js</li>
           <li>Emotion (CSS-in-JS)</li>
           <li>RxJS</li>
-          <li>Express</li>
           <li>Spring</li>
         </ol>
       </dd>
