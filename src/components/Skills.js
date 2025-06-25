@@ -6,17 +6,19 @@ const Skills = () => (
       <h2>Skills & specialties</h2>
       <h3>Frontend engineering</h3>
       <p>
-        While I've also done full-stack development, the majority of my work for
-        many years now has been in frontend engineering. I enjoy the focus to
-        detail that building user interfaces requires and the complexity that
-        the asynchronous nature of UI brings with it.
+        While I've always done full-stack development, the majority of my work
+        time for many years now has been in frontend engineering. I enjoy the
+        focus to detail that building user interfaces requires and the
+        complexity that the asynchronous nature of UI brings with it.
       </p>
       <p>
         I specialize in creating highly scalable and consistent frontend
-        architectures in a small but skilled team, often from a green field,
-        evolving abstractions as the need arises. I pursue structural solutions
-        that leave no room for individual error in order to ensure scalability
-        and avoid inconsistencies such as stale cache data or dead hyperlinks.
+        architectures in a small but skilled team, from a green field or through
+        long-term migration strategies in conjunction with ongoing feature
+        development, evolving abstractions as the need arises. I pursue
+        structural solutions that leave no room for individual error in order to
+        ensure scalability and avoid inconsistencies such as stale cache data or
+        dead hyperlinks.
       </p>
       <p>
         Taking a systematic approach to CSS, I treat it as code that has
@@ -24,9 +26,25 @@ const Skills = () => (
         consistent styling and layouting. I agree with a lot of the principles
         that Heydon Pickering outlines in the book{' '}
         <a href="https://every-layout.dev/">Every Layout</a>, but at the same
-        time appreciate the power of CSS-in-JS when it comes to deduplicating
-        everything from design tokens to entire grid layout templates.
+        time appreciate the power of CSS modules or CSS-in-JS when it comes to
+        deduplicating everything from design tokens to entire grid layout
+        templates.
       </p>
+    </section>
+    <section>
+      <h3>Engineering Management</h3>
+      <p>
+        My skills function best in an environment where there is both cultural
+        and technical leadership and initiatives needed and I can fill a hybrid
+        role between software architecture and people management, whether this
+        is 80/20 or 20/80 depending on the environment.
+      </p>
+      <p>
+        I excel at communicating deeply technical topics to people with little
+        technical background. As a manager, I've been praised for "picking out
+        the essence of the problem and ways forward from long rants".
+      </p>
+      <p>"I wish we had had 1-2-1s like that at my previous company."</p>
     </section>
     <section>
       <h3>Testing</h3>
