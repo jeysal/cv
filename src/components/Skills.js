@@ -40,11 +40,17 @@ const Skills = () => (
         is 80/20 or 20/80 depending on the environment.
       </p>
       <p>
-        I excel at communicating deeply technical topics to people with little
-        technical background. As a manager, I've been praised for "picking out
-        the essence of the problem and ways forward from long rants".
+        I have experience with hiring, coaching, public speaking. I excel at
+        communicating deeply technical topics to people with little technical
+        background, and actively get involved not only in strictly technical
+        topics but in wider roadmap planning.
       </p>
-      <p>"I wish we had had 1-2-1s like that at my previous company."</p>
+      <p>
+        As a manager, I've been praised for "picking out the essence of the
+        problem and ways forward from long rants".
+        <br />
+        "I wish we had had 1-2-1s like that at my previous company."
+      </p>
     </section>
     <section>
       <h3>Testing</h3>
