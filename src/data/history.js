@@ -21,7 +21,7 @@ const history = [
       <>
         Frontend Lead at <a href="https://decipad.com/">Decipad</a>, developing
         a <a href="https://reactjs.org/">React</a> application with a real-time
-        collaborative editor including code editing features and integration
+        collaborative editor including low-code editing features and integration
         with a domain-specific language for a seed-stage startup, as well as an
         accompanying UI library implementing a design system.
       </>
