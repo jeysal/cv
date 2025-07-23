@@ -11,7 +11,7 @@ const ProfilePic = () => {
   return showPic ? (
     <aside className={styles.profilePicWrapper}>
       <StaticImage
-        src="../images/profile-pic.png"
+        src="../images/profile-pic.jpg"
         alt="Profile picture"
         className={styles.img}
       />
