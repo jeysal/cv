@@ -43,7 +43,9 @@ const Skills = () => (
         I have experience with hiring, coaching, public speaking. I excel at
         communicating deeply technical topics to people with little technical
         background, and actively get involved not only in strictly technical
-        topics but in wider roadmap planning.
+        topics but in wider roadmap planning. I strive to unify technical
+        refactor initiatives with feature improvements, delivering them
+        incrementally and avoiding dependencies.
       </p>
       <p>
         As a manager, I've been praised for "picking out the essence of the
