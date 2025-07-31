@@ -30,7 +30,7 @@ const history = [
   {
     from: '2019-10',
     to: '2021-06',
-    location: 'London, UK / Remote',
+    location: 'London, UK',
     description: (
       <>
         Software Engineer at <a href="https://yld.io/">YLD</a>, specializing in
