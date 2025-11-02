@@ -22,6 +22,16 @@ const Keywords = () => (
           <li>Build systems</li>
         </ol>
       </dd>
+      <dt>Soft Skills</dt>
+      <dd>
+        <ol>
+          <li>Coaching</li>
+          <li>Hiring/Interviewing</li>
+          <li>Roadmap Planning</li>
+          <li>Public Speaking</li>
+          <li>1-2-1s</li>
+        </ol>
+      </dd>
       <dt>Programming paradigms</dt>
       <dd>
         <ol>
