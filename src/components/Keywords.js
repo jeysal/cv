@@ -16,10 +16,10 @@ const Keywords = () => (
       <dd>
         <ol>
           <li>Web technologies</li>
-          <li>Testing</li>
+          <li>High-fidelity UI</li>
           <li>Tooling & DX</li>
+          <li>Testing</li>
           <li>Compilers & static analysis</li>
-          <li>Build systems</li>
         </ol>
       </dd>
       <dt>Soft Skills</dt>
@@ -32,17 +32,7 @@ const Keywords = () => (
           <li>1-2-1s</li>
         </ol>
       </dd>
-      <dt>Programming paradigms</dt>
-      <dd>
-        <ol>
-          <li>Functional</li>
-          <li>Functional & Reactive</li>
-          <li>Declarative</li>
-          <li>Imperative</li>
-          <li>Object-oriented</li>
-        </ol>
-      </dd>
-      <dt>Testing types</dt>
+      <dt>Testing</dt>
       <dd>
         <ol>
           <li>Integration</li>
@@ -68,8 +58,6 @@ const Keywords = () => (
         <ol>
           <li>Rust</li>
           <li>Java</li>
-          <li>ReScript</li>
-          <li>Flow</li>
           <li>Groovy</li>
           <li>Golang</li>
           <li>C++</li>
@@ -82,8 +70,8 @@ const Keywords = () => (
         <em>In-depth knowledge:</em>{' '}
         <ol>
           <li>Jest</li>
-          <li>Babel</li>
-          <li>Node.js & most of the JS ecosystem</li>
+          <li>Node.js</li>
+          <li>most of the JS ecosystem</li>
           <li>Git</li>
           <li>Vim</li>
           <li>Linux</li>
@@ -91,10 +79,11 @@ const Keywords = () => (
         <br />
         <em>Other:</em>{' '}
         <ol>
-          <li>Various cloud providers</li>
+          <li>CRDTs</li>
+          <li>coding agents</li>
+          <li>various cloud providers</li>
           <li>various CI/CD</li>
           <li>Gradle</li>
-          <li>macOS</li>
         </ol>
       </dd>
       <dt>Libraries</dt>
@@ -103,9 +92,8 @@ const Keywords = () => (
         <ol>
           <li>React</li>
           <li>Next.js</li>
-          <li>Angular</li>
-          <li>Cycle.js</li>
-          <li>Emotion (CSS-in-JS)</li>
+          <li>various CSS-in-JS</li>
+          <li>Slate Editor</li>
           <li>RxJS</li>
           <li>Spring</li>
         </ol>
@@ -113,11 +101,11 @@ const Keywords = () => (
       <dt>Databases</dt>
       <dd>
         <ol>
-          <li>Neo4j</li>
+          <li>PostgreSQL</li>
           <li>MongoDB</li>
-          <li>various SQL-based</li>
+          <li>Neo4j</li>
           <li>ORMs</li>
-          <li>In-browser storage (offline-first)</li>
+          <li>in-browser storage (offline-first)</li>
         </ol>
       </dd>
     </dl>
