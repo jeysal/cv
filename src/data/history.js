@@ -3,6 +3,18 @@ import React from 'react';
 export const start = new Date('2014-01');
 const history = [
   {
+    from: '2025-09',
+    location: 'Remote',
+    description: (
+      <>
+        Tech Lead at unicorn scale-up <a href="https://framer.com">Framer</a>{' '}
+        post Series D, expanding the CMS and localization functionality of a
+        highly intricate no-code/low-code website builder and design tool loved
+        by designers and design agencies all over the world.
+      </>
+    ),
+  },
+  {
     from: '2023-01',
     to: '2025-08',
     location: 'Remote',
