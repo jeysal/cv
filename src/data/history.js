@@ -35,10 +35,10 @@ const history = [
     description: (
       <>
         Software Engineer at <a href="https://yld.io/">YLD</a>, specializing in
-        React, <a href="https://nodejs.org/">Node.js</a>, and other technologies
-        in the JavaScript ecosystem. Architecting and leading development on a
-        React component library and frontend for the{' '}
-        <a href="https://hub.asap.science/">ASAP Initiative</a>. Helping migrate{' '}
+        React and <a href="https://nodejs.org/">Node.js</a> and the wider
+        ecosystem. Architecting and leading development on a React component
+        library and frontend for the{' '}
+        <a href="https://hub.asap.science/">ASAP Initiative</a>. Migrating{' '}
         <a href="https://www.bbcgoodfood.com/">BBC Good Food</a> to a
         React/Next.js frontend. Giving training in JavaScript, TypeScript,
         React, and testing topics.
@@ -64,9 +64,9 @@ const history = [
     description: (
       <>
         Software Engineer at <a href="https://www.adesso.de/en/">adesso SE</a>,
-        full-stack TypeScript web development in a customer project using Scrum
-        methodology. Architecting the frontend, managing developer tooling, and
-        coaching developers without JavaScript experience.
+        full-stack TypeScript web development in a customer project,
+        architecting the frontend, managing developer tooling, and coaching
+        developers without JavaScript experience.
       </>
     ),
   },
@@ -77,8 +77,8 @@ const history = [
     description: (
       <>
         Part-time working student Software Engineer at{' '}
-        <a href="https://www.adesso.de/en/">adesso SE</a>, agile product
-        development of an IoT and data visualization platform.
+        <a href="https://www.adesso.de/en/">adesso SE</a>, development of an IoT
+        and data visualization platform.
       </>
     ),
   },
@@ -100,7 +100,7 @@ const history = [
           </div>
           <div>Final grade 1.2 (scale 1.0 best to 4.0 worst)</div>
           <div>
-            <small style={{fontSize: '75%'}}>
+            <small style={{ fontSize: '75%' }}>
               Thesis title: Compile-time abstraction of JavaScript mocking
               libraries powering a domain-specific language for interaction
               testing
