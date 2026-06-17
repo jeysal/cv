@@ -9,8 +9,8 @@ const history = [
       <>
         Tech Lead at unicorn scale-up <a href="https://framer.com">Framer</a>{' '}
         post Series D, expanding the CMS and localization functionality of a
-        highly intricate no-code/low-code website builder and design tool loved
-        by designers and design agencies all over the world.
+        highly intricate no-code/low-code AI website builder and design tool
+        loved by designers, agencies, and enterprises all over the world.
       </>
     ),
   },
@@ -112,7 +112,7 @@ const history = [
           </div>
           <div>Final grade 1.2 (scale 1.0 best to 4.0 worst)</div>
           <div>
-            <small style={{ fontSize: '75%' }}>
+            <small style={{fontSize: '75%'}}>
               Thesis title: Compile-time abstraction of JavaScript mocking
               libraries powering a domain-specific language for interaction
               testing
