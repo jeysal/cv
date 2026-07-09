@@ -42,6 +42,7 @@ const Keywords = () => (
           <li>Visual</li>
           <li>TDD</li>
           <li>Property-based</li>
+          <li>AI evals</li>
         </ol>
       </dd>
       <dt>Languages</dt>
@@ -69,11 +70,11 @@ const Keywords = () => (
       <dd>
         <em>In-depth knowledge:</em>{' '}
         <ol>
-          <li>Jest</li>
           <li>Node.js</li>
+          <li>Jest</li>
           <li>most of the JS ecosystem</li>
+          <li>AI harness engineering</li>
           <li>Git</li>
-          <li>Vim</li>
           <li>Linux</li>
         </ol>
         <br />
@@ -83,7 +84,6 @@ const Keywords = () => (
           <li>coding agents</li>
           <li>various cloud providers</li>
           <li>various CI/CD</li>
-          <li>Gradle</li>
         </ol>
       </dd>
       <dt>Libraries</dt>

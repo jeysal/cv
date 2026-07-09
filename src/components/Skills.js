@@ -32,7 +32,7 @@ const Skills = () => (
       </p>
     </section>
     <section>
-      <h3>Engineering Management</h3>
+      <h3>Engineering management</h3>
       <p>
         My skills function best in an environment where there is both cultural
         and technical leadership and initiatives needed and I can fill a hybrid
